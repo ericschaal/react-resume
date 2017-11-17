@@ -21,13 +21,13 @@ export default ({history}: RouterProps) => (
         <div style={{height: '100%'}}>
             <Background/>
             <NavigationBar/>
+
             <Switch>
                 <Route exact path='/' component={Home}></Route>
                 <Route path='/about' component={About}></Route>
                 <Route path='/projects'></Route>
             </Switch>
 
-            <Footer/>
         </div>
     </ConnectedRouter>
 )

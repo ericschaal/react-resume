@@ -6,12 +6,16 @@
 import React from 'react';
 import {Container, Row, Col} from 'reactstrap';
 
+import Icon from 'react-fontawesome'
+
 export default () => (
-    <Container style={styles.fullWidth} fluid>
+
+    <Container tag="footer" style={styles.fullWidth} fluid>
         <Row noGutters>
-            <Col style={styles.footer} xl="12">Footer</Col>
+            <Col sm="12"><p style={styles.text}>Made with <Icon style={styles.heart} name="heart"/> by Eric Schaal</p></Col>
         </Row>
     </Container>
+
 )
 
 const styles = {
@@ -19,8 +23,13 @@ const styles = {
         paddingLeft: '0',
         paddingRight: '0',
     },
-    footer: {
-        background: 'blue',
-        height: 75,
+    text: {
+        color: 'white',
+        textAlign: 'center',
+        fontSize: 12,
+    },
+    heart: {
+        color: 'red'
     }
+
 };

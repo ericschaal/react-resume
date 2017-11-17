@@ -5,7 +5,7 @@
 import React, {Component} from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
-import type {State, Props} from './model';
+import type {State, Props} from '../model';
 
 export default class NavigationBar extends Component<Props, State> {
 
@@ -34,10 +34,7 @@ export default class NavigationBar extends Component<Props, State> {
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="/components/">Components</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="/about">About</NavLink>
+                                <NavLink style={styles.menuItem} href="/Resume">Resume</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
@@ -49,9 +46,12 @@ export default class NavigationBar extends Component<Props, State> {
 
 const styles = {
     navBarContainer: {
-        background: 'rgba(0,0,0,0.8)'
+        background: 'rgba(0,0,0,0.4)'
     },
     navBrand: {
         fontWeight: '100'
+    },
+    menuItem: {
+        color: 'white',
     }
 };

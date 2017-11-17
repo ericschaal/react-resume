@@ -5,8 +5,10 @@
 
 import React from 'react';
 
-export default () => (
-    <hr style={styles.separator}/>
+import type {Props} from '../model';
+
+export default ({style} : Props) => (
+    <hr style={Object.assign({}, styles.separator, style)}/>
 )
 
 const styles = {

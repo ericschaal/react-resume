@@ -12,6 +12,7 @@ export default () => (
              className=" mx-auto d-block rounded-circle"></img>
         <div style={styles.info}>
             <p style={styles.header}>Eric Schaal</p>
+            <p style={styles.headerBis}>Full Stack Developper</p>
             <p style={styles.subHeader}>Montreal, QC, Canada</p>
         </div>
         <ul className="d-block" style={styles.socialIconsList}>
@@ -39,8 +40,14 @@ const styles = {
         fontSize: 24,
         textAlign: 'center'
     },
+    headerBis: {
+        fontWeight: 400,
+        color: 'brown',
+        fontSize: 22,
+        textAlign: 'center'
+    },
     subHeader: {
-        paddingTop: 0,
+        paddingTop: 6,
         fontWeight: 200,
         fontSize: 16,
         textAlign: 'center'

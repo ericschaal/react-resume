@@ -3,7 +3,7 @@
  * @flow
  **/
 
-import NavBar from './NavBar';
+import NavBar from './components/NavBar';
 import model from './model';
 
 export default NavBar;

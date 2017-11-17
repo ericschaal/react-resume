@@ -9,21 +9,28 @@ import {Col} from 'reactstrap';
 import Separator from '../../../components/Separator';
 import Profile from './Profile';
 import Contact from './Contact';
+import Biography from './Biography';
 
 export default () => (
-    <Col style={styles.col} md="3">
+    <Col className="height-1 float-md-left" style={styles.col} md="4" sm="10">
         <Profile/>
         <Separator/>
         <Contact/>
+        <Separator/>
+        <Biography/>
     </Col>
 )
 
 
 const styles = {
     col: {
-        display: 'tableCell',
-        background: 'yellow',
-        float: 'none',
-        padding: '12px 8px 8px 12px'
+        display: 'flex !important',
+        overflow:'hidden',
+        clear:'both',
+        background: '#f6f1ed',
+        padding: '12px 8px 8px 12px',
+        borderRadius: '2px',
+        boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
+        marginBottom: 10,
     },
 };
