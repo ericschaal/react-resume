@@ -26,7 +26,7 @@ export default ({children, title, name, ...rest}: Props) => (
 const styles = {
     container: {
         background: '#f6f1ed',
-        marginBottom: 12,
+        marginBottom: 40,
     },
     title: {
         fontSize: 26,

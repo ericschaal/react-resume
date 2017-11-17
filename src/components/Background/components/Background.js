@@ -5,12 +5,10 @@
 
 import React from 'react';
 import Particles from 'react-particles-js';
-import {detect} from 'detect-browser';
-
-const browser = detect();
+import {isBrowser} from 'react-device-detect';
 
 export default () => {
-    return (browser.name === 'firefox' || browser.name === 'chrome') ?
+    return (isBrowser) ?
         (
             <Particles
                 params={{

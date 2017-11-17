@@ -18,15 +18,15 @@ import Background from "../components/Background";
 
 export default ({history}: RouterProps) => (
     <ConnectedRouter history={history}>
-        <div style={{height: '100%'}}>
+        <div>
             <Background/>
             <NavigationBar/>
-
             <Switch>
                 <Route exact path='/' component={Home}></Route>
                 <Route path='/about' component={About}></Route>
                 <Route path='/projects'></Route>
             </Switch>
+
 
         </div>
     </ConnectedRouter>

@@ -18,9 +18,7 @@ export default ({children} : Props) => (
 
 const styles = {
     container: {
-        overflow:'hidden',
-        clear:'both',
-        marginTop: 30,
+        marginTop: 60,
         marginBottom: 60,
     }
 };

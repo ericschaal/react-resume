@@ -12,7 +12,7 @@ import Contact from './Contact';
 import Biography from './Biography';
 
 export default () => (
-    <Col className="height-1 float-md-left" style={styles.col} md="4" sm="10">
+    <Col  tag="aside" className="float-md-left" style={styles.col} lg={{size: 4, offset:0}} xs={{size: 10, offset: 1}}>
         <Profile/>
         <Separator/>
         <Contact/>
@@ -29,8 +29,9 @@ const styles = {
         clear:'both',
         background: '#f6f1ed',
         padding: '12px 8px 8px 12px',
-        borderRadius: '2px',
+        borderRadius: '4px',
         boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
         marginBottom: 10,
+        height: '650px',
     },
 };

@@ -8,7 +8,7 @@ import {SocialIcon} from 'react-social-icons';
 
 export default () => (
     <div>
-        <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=180%C3%97180&w=180&h=180"
+        <img src="/profile.jpeg"
              className=" mx-auto d-block rounded-circle"></img>
         <div style={styles.info}>
             <p style={styles.header}>Eric Schaal</p>
@@ -24,10 +24,9 @@ export default () => (
 )
 
 const urls = [
-    'http://github.com',
-    'http://twitter.com/jaketrent',
-    'http://linkedin.com/in/jaketrent',
-    'http://facebook.com/'
+    'https://github.com/ericschaal',
+    'https://www.linkedin.com/in/ericschaal/',
+    'https://www.facebook.com/eric.schaal.16'
 ];
 
 const styles = {

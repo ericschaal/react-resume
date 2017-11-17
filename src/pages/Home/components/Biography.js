@@ -9,8 +9,9 @@ import React from 'react';
 export default () => (
     <div style={styles.container}>
         <p style={styles.paragraph}>
-            I built this site with React components and a JSON Resume Schema.
-            The full source code can be found in my Github repo.
+            I built this site using <a href="https://github.com/facebookincubator/create-react-app">create-react-app</a>. The source code
+            can be found on my <a href="https://github.com/ericschaal">Github profile</a>.
+            I plan on supporting JSON resume Schema sometime in the future.
         </p>
     </div>
 )

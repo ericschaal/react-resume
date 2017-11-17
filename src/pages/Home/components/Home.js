@@ -17,6 +17,7 @@ export default class Home extends Component<void, void> {
             <Page>
                 <Row>
                     <SideColumn/>
+                    <Col className="hidden-sm hidden-xm" md="1"></Col>
                     <CenterColumn/>
                 </Row>
             </Page>
