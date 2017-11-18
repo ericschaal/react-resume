@@ -25,11 +25,11 @@ export default ({children, title, name, ...rest}: Props) => (
 
 const styles = {
     container: {
-        background: '#f6f1ed',
-        marginBottom: 40,
+        marginBottom: 20,
     },
     title: {
         fontSize: 26,
+        color: '#252839',
     },
     icon: {
         paddingRight: 12,

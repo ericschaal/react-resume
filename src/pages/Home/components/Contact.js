@@ -15,8 +15,12 @@ export default () => (
                 <a href="mailto:eric.schaal@mail.mcgill.ca">eric.schaal@mail.mcgill.ca</a>
             </li>
             <li>
+                <Icon style={styles.icon} name="envelope-o"/>
+                <a href="mailto:ericschaal@icloud.com">ericschaal@icloud.com</a>
+            </li>
+            <li>
                 <Icon style={styles.icon} name="phone"/>
-                <a href="tel:438-929-7521">438-929-7521</a>
+                <a href="tel:+1-438-929-7521">+1-438-929-7521</a>
             </li>
         </ul>
     </div>

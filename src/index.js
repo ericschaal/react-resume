@@ -10,9 +10,8 @@ import ReactDOM from 'react-dom';
 import store from './store';
 import Root from './App';
 
-import 'bootstrap/dist/css/bootstrap.css';
 import './styles/index.css';
-
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 import registerServiceWorker from './utils/registerServiceWorker';

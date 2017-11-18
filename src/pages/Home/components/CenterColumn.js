@@ -13,7 +13,19 @@ import Section from '../../../components/Section';
 export default () => (
     <Col style={styles.col} xs={{size: 10, offset: 1}} lg={{size: 7, offset: 0}}>
         <Section name="user" title="ABOUT">
-            <p style={styles.paragraph}>Blah blah</p>
+            <Container style={styles.workContainer}>
+                <Row>
+                    <Col xs="12">
+                        <p style={styles.workDescription}>
+                            Experienced Software Developer with a demonstrated history of working in the Smart
+                            Healthcare
+                            industry. Skilled in Java, JavaScript, C++ and experienced with Network architecture and
+                            Distributed Systems. Currently pursuing a Bachelor of Science in Computer Science at McGill
+                            University.
+                        </p>
+                    </Col>
+                </Row>
+            </Container>
         </Section>
 
         <Section name="mortar-board" title="EDUCATION">
@@ -29,30 +41,30 @@ export default () => (
                         </Row>
                     </Col>
                     <Col xs="4">
-                        <Row>
+                        <Row className="float-right">
                             <p style={styles.workDate}>September 2015 - April 2018</p>
                         </Row>
-                        <Row>
+                        <Row className="float-right">
                             <p style={styles.workDate}>Montreal, QC, Canada</p>
                         </Row>
                     </Col>
                 </Row>
 
-                <Row>
+                <Row style={{marginBottom: 12}}>
                     <Col xs="8">
                         <Row>
-                            <p style={styles.workName}>EPFL</p>
+                            <p style={styles.workName}>Lycee Francais Charles de Gaulle</p>
                         </Row>
                         <Row>
-                            <p style={styles.workTitle}>B.Eng Mechanical Engineering</p>
+                            <p style={styles.workTitle}>Baccalaureat Scientifque</p>
                         </Row>
                     </Col>
                     <Col xs="4">
-                        <Row>
-                            <p style={styles.workDate}>September 2014 - June 2015</p>
+                        <Row className="float-right">
+                            <p style={styles.workDate}> September 2014 - June 2014 </p>
                         </Row>
-                        <Row>
-                            <p style={styles.workDate}>Lausanne, VD, Switzerland</p>
+                        <Row className="float-right">
+                            <p style={styles.workDate}>Montreal, QC, Canada</p>
                         </Row>
                     </Col>
                 </Row>
@@ -71,10 +83,10 @@ export default () => (
                         </Row>
                     </Col>
                     <Col xs="4">
-                        <Row>
+                        <Row className="float-right">
                             <p style={styles.workDate}>July 2017 - Current</p>
                         </Row>
-                        <Row>
+                        <Row className="float-right">
                             <p style={styles.workDate}>Montreal, QC, Canada</p>
                         </Row>
                     </Col>
@@ -82,13 +94,6 @@ export default () => (
                 <Row style={{marginBottom: 12}}>
                     <Col style={styles.workDescriptionContainer} xs="12">
                         <p style={styles.workDescription}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum dolor in quam
-                            dapibus elementum. Integer interdum ac tellus nec fermentum. Quisque fringilla ut lectus ut
-                            lobortis. Etiam vel lacus eget massa venenatis aliquam non nec neque. Integer libero lectus,
-                            euismod ac porta scelerisque, accumsan sit amet ligula. Proin non ultricies nibh, et
-                            sollicitudin ante. Nulla facilisi. Nulla odio nunc, bibendum ut scelerisque eu, volutpat nec
-                            sapien. Morbi convallis erat mauris. Quisque viverra felis nec nisl porttitor euismod.
-                            Vestibulum feugiat consequat sapien, et ornare nunc laoreet vitae.
                         </p>
                     </Col>
                 </Row>
@@ -103,10 +108,10 @@ export default () => (
                         </Row>
                     </Col>
                     <Col xs="4">
-                        <Row>
+                        <Row className="float-right">
                             <p style={styles.workDate}>June 2016 - August 2016</p>
                         </Row>
-                        <Row>
+                        <Row className="float-right">
                             <p style={styles.workDate}>Antananarivo, Madagascar</p>
                         </Row>
                     </Col>
@@ -114,13 +119,9 @@ export default () => (
                 <Row>
                     <Col style={styles.workDescriptionContainer} xs="12">
                         <p style={styles.workDescription}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum dolor in quam
-                            dapibus elementum. Integer interdum ac tellus nec fermentum. Quisque fringilla ut lectus ut
-                            lobortis. Etiam vel lacus eget massa venenatis aliquam non nec neque. Integer libero lectus,
-                            euismod ac porta scelerisque, accumsan sit amet ligula. Proin non ultricies nibh, et
-                            sollicitudin ante. Nulla facilisi. Nulla odio nunc, bibendum ut scelerisque eu, volutpat nec
-                            sapien. Morbi convallis erat mauris. Quisque viverra felis nec nisl porttitor euismod.
-                            Vestibulum feugiat consequat sapien, et ornare nunc laoreet vitae.
+                            I deployed a complete software development environment (Project Management, Bug tracker,
+                            VCS, Dependency Management, CI platform) to facilitate employee collaboration and project
+                            development in order to boost company productivity.
                         </p>
                     </Col>
                 </Row>
@@ -128,7 +129,7 @@ export default () => (
         </Section>
 
         <Section name="code" title="SKILLS">
-            <Container>
+            <Container style={styles.workContainer}>
                 <Row>
                     <Col xs="12">
                         <p>
@@ -161,7 +162,7 @@ export default () => (
         </Section>
 
         <Section name="cog" title="PROJECTS">
-            <Container style={styles.projectList}>
+            <Container style={styles.workContainer}>
                 <Row style={styles.projectListItem}>
                     <Col xs="9" md="3"><strong>Booker</strong></Col>
                     <Col xs="3" md="1"><span style={{color: 'orange'}}><Icon name="github"/> <Icon
@@ -172,8 +173,12 @@ export default () => (
 
                 <Row style={styles.projectListItem}>
                     <Col xs="9" md="3"><strong>Cookie Shell</strong></Col>
-                    <Col xs="3" md="1"><span style={{color: 'green'}}><Icon name="github"/> <Icon
-                        name="arrow-circle-o-down"/></span></Col>
+                    <Col xs="3" md="1">
+                        <span style={{color: 'green'}}>
+                            <Icon tag="a" href="https://github.com/ericschaal/cookie_shell" name="github"/>
+                            <Icon tag="a" href="https://github.com/ericschaal/cookie_shell/archive/master.zip" name="arrow-circle-o-down"/>
+                        </span>
+                    </Col>
                     <Col
                         xs="12"
                         md="7"><p style={styles.workDescription}>Shell built from scratch with pipes, I/O redirection,
@@ -181,37 +186,49 @@ export default () => (
                 </Row>
                 <Row style={styles.projectListItem}>
                     <Col xs="9" md="3"><strong>Mancala AI</strong></Col>
-                    <Col xs="3" md="1"><span style={{color: 'green'}}><Icon name="github"/> <Icon
-                        name="arrow-circle-o-down"/></span></Col>
-                    <Col xs="12" md="7"><p style={styles.workDescription}>Das Bohnenspie AI player using Alpha-Beta Pruning.</p>
+                    <Col xs="3" md="1">
+                        <span style={{color: 'orange'}}>
+                            <Icon name="github"/>
+                            <Icon name="arrow-circle-o-down"/>
+                        </span>
+                    </Col>
+                    <Col xs="12" md="7"><p style={styles.workDescription}>Das Bohnenspie AI player using Alpha-Beta
+                        Pruning.</p>
                     </Col>
                 </Row>
                 <Row style={styles.projectListItem}>
                     <Col xs="9" md="3"><strong>PleskDynDNS</strong></Col>
-                    <Col xs="3" md="1"><span style={{color: 'green'}}><Icon name="github"/> <Icon
-                        name="arrow-circle-o-down"/></span></Col>
+                    <Col xs="3" md="1">
+                        <span style={{color: 'green'}}>
+                        <Icon tag="a" href="https://github.com/ericschaal/dynDNSPleskClient" name="github"/>
+                        <Icon tag="a" href="https://github.com/ericschaal/dynDNSPleskServer/archive/master.zip"
+                              name="arrow-circle-o-down"/>
+                        </span>
+                    </Col>
                     <Col
                         xs="12"
                         md="7">
                         <p style={styles.workDescription}>
-                            Dynamic DNS client and server for Plesk Control Panelwritten in Go.
+                            Dynamic DNS client and server for Plesk Control Panel written in Go.
                         </p>
                     </Col>
                 </Row>
                 <Row style={styles.projectListItem}>
                     <Col xs="9" md="3"><strong>Live Docker Container Migration</strong></Col>
-                    <Col xs="3" md="1"><span style={{color: 'orange'}}><Icon name="github"/> <Icon name="arrow-circle-o-down"/></span></Col>
+                    <Col xs="3" md="1"><span style={{color: 'orange'}}><Icon name="github"/> <Icon
+                        name="arrow-circle-o-down"/></span></Col>
                     <Col
                         xs="12"
                         md="7">
                         <p style={styles.workDescription}>
-                            Live game server migration from one data center toanother without downtime.
+                            Live game server migration from one data center to another without downtime.
                         </p>
                     </Col>
                 </Row>
                 <Row style={styles.projectListItem}>
-                    <Col xs="9" md="3"><strong>Travl [Ongoing startup project]</strong></Col>
-                    <Col xs="3" md="1"><span style={{color: 'orange'}}><Icon name="github"/> <Icon name="arrow-circle-o-down"/></span></Col>
+                    <Col xs="9" md="3"><strong>Travl [Ongoing]</strong></Col>
+                    <Col xs="3" md="1"><span style={{color: 'orange'}}><Icon name="github"/> <Icon
+                        name="arrow-circle-o-down"/></span></Col>
                     <Col xs="12" md="7">
                         <p style={styles.workDescription}>
                             A crowd-sourced and social travel agent that helpsusers build and
@@ -228,9 +245,8 @@ export default () => (
 const styles = {
     col: {
         background: '#f6f1ed',
-        paddingBottom: 10,
-        paddingTop: 10,
         borderRadius: '4px',
+        padding: '30px 12px 30px 12px',
         boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
         marginBottom: 10,
     },
@@ -239,37 +255,36 @@ const styles = {
         lineHeight: '100%',
     },
     workTitle: {
-        fontSize: 14,
+        fontSize: 15,
         marginBottom: 4,
-        marginLeft: 12,
+        marginLeft: 0,
         padding: 0,
+        color: '#757575'
     },
     workDate: {
-        fontSize: 14,
+        fontSize: 13,
         fontStyle: 'italic',
         marginBottom: 4,
         padding: 0,
     },
     workName: {
-        marginLeft: 12,
+        fontSize: 17,
+        marginLeft: 0,
         fontWeight: 600,
         marginBottom: 4,
         padding: 0,
     },
     workDescription: {
         fontSize: 16,
-        textAlign: 'justify',
+        textAlign: 'left',
     },
     workDescriptionContainer: {
         paddingTop: 12,
     },
     paragraph: {
-        textAlign: 'justify',
-    },
-    projectList: {
-        paddingTop: 12,
+        textAlign: 'left',
     },
     projectListItem: {
-        paddingBottom: 12
+        paddingBottom: 16
     }
 };

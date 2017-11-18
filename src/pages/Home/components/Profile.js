@@ -8,7 +8,7 @@ import {SocialIcon} from 'react-social-icons';
 
 export default () => (
     <div>
-        <img src="/profile.jpeg"
+        <img src="/profile.jpg"
              className=" mx-auto d-block rounded-circle"></img>
         <div style={styles.info}>
             <p style={styles.header}>Eric Schaal</p>
@@ -41,7 +41,6 @@ const styles = {
     },
     headerBis: {
         fontWeight: 400,
-        color: 'brown',
         fontSize: 22,
         textAlign: 'center'
     },

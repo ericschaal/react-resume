@@ -19,6 +19,5 @@ export default ({children} : Props) => (
 const styles = {
     container: {
         marginTop: 60,
-        marginBottom: 60,
     }
 };
