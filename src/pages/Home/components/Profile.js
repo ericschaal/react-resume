@@ -12,7 +12,7 @@ export default () => (
              className=" mx-auto d-block rounded-circle"></img>
         <div style={styles.info}>
             <p style={styles.header}>Eric Schaal</p>
-            <p style={styles.headerBis}>Full Stack Developper</p>
+            <p style={styles.headerBis}>Full Stack Developer</p>
             <p style={styles.subHeader}>Montreal, QC, Canada</p>
         </div>
         <ul className="d-block" style={styles.socialIconsList}>

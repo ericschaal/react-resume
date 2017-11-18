@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="08eca86c-6d4f-4d8f-b187-8d07f383fe0e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/Home/components/CenterColumn.js" afterPath="$PROJECT_DIR$/src/pages/Home/components/CenterColumn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/index.css" afterPath="$PROJECT_DIR$/src/styles/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/index.scss" afterPath="$PROJECT_DIR$/src/styles/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/Home/components/Profile.js" afterPath="$PROJECT_DIR$/src/pages/Home/components/Profile.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,14 +17,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CenterColumn.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CenterColumn.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Home/components/CenterColumn.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
+            <state relative-caret-position="2835">
               <caret line="192" column="31" lean-forward="true" selection-start-line="192" selection-start-column="31" selection-end-line="192" selection-end-column="31" />
               <folding>
                 <element signature="e#55#81#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Profile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/Home/components/Profile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -181,12 +189,12 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/pages/Home/components/SideColumn.js" />
         <option value="$PROJECT_DIR$/src/components/Section/components/Section.js" />
-        <option value="$PROJECT_DIR$/src/pages/Home/components/Profile.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/styles/index.scss" />
         <option value="$PROJECT_DIR$/src/pages/Home/components/CenterColumn.js" />
+        <option value="$PROJECT_DIR$/src/pages/Home/components/Profile.js" />
       </list>
     </option>
   </component>
@@ -351,7 +359,7 @@
       <workItem from="1510950181111" duration="4948000" />
       <workItem from="1510966435363" duration="1255000" />
       <workItem from="1510967841796" duration="312000" />
-      <workItem from="1510969568995" duration="1143000" />
+      <workItem from="1510969568995" duration="1765000" />
     </task>
     <task id="LOCAL-00001" summary="Init.">
       <created>1510887565523</created>
@@ -395,11 +403,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510970194824</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Text fix.">
+      <created>1510971201071</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1510971201071</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47182000" />
+    <option name="totallyTimeSpent" value="47804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1058" extended-state="0" />
@@ -438,7 +453,8 @@
     <MESSAGE value="Init." />
     <MESSAGE value="Fix." />
     <MESSAGE value="Metas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Metas" />
+    <MESSAGE value="Text fix." />
+    <option name="LAST_COMMIT_MESSAGE" value="Text fix." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -708,13 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Home/components/Profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Home/components/SideColumn.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -770,11 +779,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Home/components/CenterColumn.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
+        <state relative-caret-position="2835">
           <caret line="192" column="31" lean-forward="true" selection-start-line="192" selection-start-column="31" selection-end-line="192" selection-end-column="31" />
           <folding>
             <element signature="e#55#81#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Home/components/Profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
