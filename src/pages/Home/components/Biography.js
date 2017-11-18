@@ -22,6 +22,7 @@ const styles = {
         paddingRight: 12,
     },
     paragraph: {
-        textAlign: 'justify'
+        textAlign: 'justify',
+        fontSize: 15,
     }
 };
