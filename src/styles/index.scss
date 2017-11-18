@@ -21,17 +21,17 @@ footer {
   background-color: rgba(0,0,0,0.8);
 }
 
-p {
-   color: #212121;
-   font-size: 16px;
- }
-
-a {
-  &.fa {
-    color: inherit; /* blue colors for links too */
-    text-decoration: inherit; /* no underline */
-  }
-}
+//p {
+//   color: #212121;
+//   font-size: 16px;
+// }
+//
+//a {
+//  &.fa {
+//    color: inherit; /* blue colors for links too */
+//    text-decoration: inherit; /* no underline */
+//  }
+//}
 
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 

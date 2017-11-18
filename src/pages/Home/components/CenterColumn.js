@@ -175,8 +175,8 @@ export default () => (
                     <Col xs="9" md="3"><strong>Cookie Shell</strong></Col>
                     <Col xs="3" md="1">
                         <span style={{color: 'green'}}>
-                            <Icon tag="a" href="https://github.com/ericschaal/cookie_shell" name="github"/>
-                            <Icon tag="a" href="https://github.com/ericschaal/cookie_shell/archive/master.zip" name="arrow-circle-o-down"/>
+                            <Icon style={{color: 'green'}} tag="a" href="https://github.com/ericschaal/cookie_shell" name="github"/>
+                            <Icon style={{color: 'green'}} tag="a" href="https://github.com/ericschaal/cookie_shell/archive/master.zip" name="arrow-circle-o-down"/>
                         </span>
                     </Col>
                     <Col
@@ -199,9 +199,9 @@ export default () => (
                 <Row style={styles.projectListItem}>
                     <Col xs="9" md="3"><strong>PleskDynDNS</strong></Col>
                     <Col xs="3" md="1">
-                        <span style={{color: 'green'}}>
-                        <Icon tag="a" href="https://github.com/ericschaal/dynDNSPleskClient" name="github"/>
-                        <Icon tag="a" href="https://github.com/ericschaal/dynDNSPleskServer/archive/master.zip"
+                        <span>
+                        <Icon style={{color: 'green'}} tag="a" href="https://github.com/ericschaal/dynDNSPleskClient" name="github"/>
+                        <Icon style={{color: 'green'}} tag="a" href="https://github.com/ericschaal/dynDNSPleskServer/archive/master.zip"
                               name="arrow-circle-o-down"/>
                         </span>
                     </Col>
@@ -252,7 +252,6 @@ const styles = {
     },
     workContainer: {
         paddingTop: 20,
-        lineHeight: '100%',
     },
     workTitle: {
         fontSize: 15,
