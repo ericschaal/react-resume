@@ -76,7 +76,7 @@ export default () => (
                 <Row>
                     <Col xs="8">
                         <Row>
-                            <p style={styles.workName}>MYOVUE</p>
+                            <p style={styles.workName}>NXTSENS Microsystems</p>
                         </Row>
                         <Row>
                             <p style={styles.workTitle}>Software Developer</p>
@@ -94,6 +94,37 @@ export default () => (
                 <Row style={{marginBottom: 12}}>
                     <Col style={styles.workDescriptionContainer} xs="12">
                         <p style={styles.workDescription}>
+                            Leading the development of a React-Native application capable of receiving, processing and
+                            displaying critical health data from a Bluetooth Low Energy medical device and uploading it
+                            to a FHIR conformant server. Advising meetings with cloud hosting service based on
+                            application infrastructure needs.
+                        </p>
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col xs="8">
+                        <Row>
+                            <p style={styles.workName}>Yuma</p>
+                        </Row>
+                        <Row>
+                            <p style={styles.workTitle}>Software Developer Intern</p>
+                        </Row>
+                    </Col>
+                    <Col xs="4">
+                        <Row className="float-right">
+                            <p style={styles.workDate}>May 2017 - June 2017</p>
+                        </Row>
+                        <Row className="float-right">
+                            <p style={styles.workDate}>Montreal, QC, Canada</p>
+                        </Row>
+                    </Col>
+                </Row>
+                <Row style={{marginBottom: 12}}>
+                    <Col style={styles.workDescriptionContainer} xs="12">
+                        <p style={styles.workDescription}>
+                            Developed a scalable bulk email service using RabbitMQ capable of sending thousands
+                            of emails in a few seconds. Brainstormed database architecture with CTO.
                         </p>
                     </Col>
                 </Row>
@@ -119,9 +150,10 @@ export default () => (
                 <Row>
                     <Col style={styles.workDescriptionContainer} xs="12">
                         <p style={styles.workDescription}>
-                            I deployed a complete software development environment (Project Management, Bug tracker,
-                            VCS, Dependency Management, CI platform) to facilitate employee collaboration and project
-                            development in order to boost company productivity.
+                            Deployed a complete software development environment (Project Management, Bug
+                            tracker, VCS, Dependency Caching, CI platform) to facilitate employee collaboration
+                            and project development. Contributed to technical meetings with Facebook and Orange
+                            engineers concerning the launch of Internet.org in Madagascar.
                         </p>
                     </Col>
                 </Row>
@@ -167,7 +199,8 @@ export default () => (
                     <Col xs="9" md="3"><strong>Booker</strong></Col>
                     <Col xs="3" md="1"><span style={{color: 'orange'}}><Icon name="github"/> <Icon
                         name="arrow-circle-o-down"/></span></Col>
-                    <Col xs="12" md="7"><p style={styles.workDescription}>Fault-tolerant distributed booking system with
+                    <Col xs="12" md="7"><p style={styles.workDescription}>Fault-tolerant distributed booking
+                        system with
                         transaction and replication support.</p></Col>
                 </Row>
 
@@ -175,13 +208,17 @@ export default () => (
                     <Col xs="9" md="3"><strong>Cookie Shell</strong></Col>
                     <Col xs="3" md="1">
                         <span style={{color: 'green'}}>
-                            <Icon style={{color: 'green'}} tag="a" href="https://github.com/ericschaal/cookie_shell" name="github"/>
-                            <Icon style={{color: 'green'}} tag="a" href="https://github.com/ericschaal/cookie_shell/archive/master.zip" name="arrow-circle-o-down"/>
+                            <Icon style={{color: 'green'}} tag="a" href="https://github.com/ericschaal/cookie_shell"
+                                  name="github"/>
+                            <Icon style={{color: 'green'}} tag="a"
+                                  href="https://github.com/ericschaal/cookie_shell/archive/master.zip"
+                                  name="arrow-circle-o-down"/>
                         </span>
                     </Col>
                     <Col
                         xs="12"
-                        md="7"><p style={styles.workDescription}>Shell built from scratch with pipes, I/O redirection,
+                        md="7"><p style={styles.workDescription}>Shell built from scratch with pipes, I/O
+                        redirection,
                         job management and history.</p></Col>
                 </Row>
                 <Row style={styles.projectListItem}>
@@ -192,7 +229,8 @@ export default () => (
                             <Icon name="arrow-circle-o-down"/>
                         </span>
                     </Col>
-                    <Col xs="12" md="7"><p style={styles.workDescription}>Das Bohnenspie AI player using Alpha-Beta
+                    <Col xs="12" md="7"><p style={styles.workDescription}>Das Bohnenspie AI player using
+                        Alpha-Beta
                         Pruning.</p>
                     </Col>
                 </Row>
@@ -200,8 +238,10 @@ export default () => (
                     <Col xs="9" md="3"><strong>PleskDynDNS</strong></Col>
                     <Col xs="3" md="1">
                         <span>
-                        <Icon style={{color: 'green'}} tag="a" href="https://github.com/ericschaal/dynDNSPleskClient" name="github"/>
-                        <Icon style={{color: 'green'}} tag="a" href="https://github.com/ericschaal/dynDNSPleskServer/archive/master.zip"
+                        <Icon style={{color: 'green'}} tag="a" href="https://github.com/ericschaal/dynDNSPleskClient"
+                              name="github"/>
+                        <Icon style={{color: 'green'}} tag="a"
+                              href="https://github.com/ericschaal/dynDNSPleskServer/archive/master.zip"
                               name="arrow-circle-o-down"/>
                         </span>
                     </Col>
