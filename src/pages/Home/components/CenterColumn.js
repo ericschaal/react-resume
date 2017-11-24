@@ -45,7 +45,7 @@ export default () => (
                             <p style={styles.workDate}>September 2015 - April 2018</p>
                         </Row>
                         <Row className="float-right">
-                            <p style={styles.workDate}>Montreal, QC, Canada</p>
+                            <p style={styles.workDate}>Montréal, QC, Canada</p>
                         </Row>
                     </Col>
                 </Row>
@@ -53,10 +53,10 @@ export default () => (
                 <Row style={{marginBottom: 12}}>
                     <Col xs="8">
                         <Row>
-                            <p style={styles.workName}>Lycee Francais Charles de Gaulle</p>
+                            <p style={styles.workName}>Lycee Français Charles de Gaulle</p>
                         </Row>
                         <Row>
-                            <p style={styles.workTitle}>Baccalaureat Scientifque</p>
+                            <p style={styles.workTitle}>French National Science Baccalauréat Diploma</p>
                         </Row>
                     </Col>
                     <Col xs="4">
@@ -64,7 +64,7 @@ export default () => (
                             <p style={styles.workDate}> September 2014 - June 2014 </p>
                         </Row>
                         <Row className="float-right">
-                            <p style={styles.workDate}>Montreal, QC, Canada</p>
+                            <p style={styles.workDate}>Montréal, QC, Canada</p>
                         </Row>
                     </Col>
                 </Row>
@@ -87,7 +87,7 @@ export default () => (
                             <p style={styles.workDate}>July 2017 - Current</p>
                         </Row>
                         <Row className="float-right">
-                            <p style={styles.workDate}>Montreal, QC, Canada</p>
+                            <p style={styles.workDate}>Montréal, QC, Canada</p>
                         </Row>
                     </Col>
                 </Row>
