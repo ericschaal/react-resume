@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08eca86c-6d4f-4d8f-b187-8d07f383fe0e" name="Default" comment="Typos.">
+    <list default="true" id="08eca86c-6d4f-4d8f-b187-8d07f383fe0e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/navigation/Root.js" afterPath="$PROJECT_DIR$/src/navigation/Root.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/NavBar/components/NavBar.js" afterPath="$PROJECT_DIR$/src/components/NavBar/components/NavBar.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/src/navigation/Root.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -70,8 +70,8 @@
       <file leaf-file-name="NavBar.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/NavBar/components/NavBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="418">
+              <caret line="34" column="56" lean-forward="true" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -398,7 +398,7 @@
       <workItem from="1511354272553" duration="471000" />
       <workItem from="1511483427274" duration="83000" />
       <workItem from="1511483526078" duration="105000" />
-      <workItem from="1511829587596" duration="167000" />
+      <workItem from="1511829587596" duration="474000" />
     </task>
     <task id="LOCAL-00001" summary="Init.">
       <created>1510887565523</created>
@@ -498,11 +498,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511483601191</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Typos.">
+      <created>1511829776157</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1511829776157</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50517000" />
+    <option name="totallyTimeSpent" value="50824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="76" y="22" width="1680" height="1028" extended-state="0" />
@@ -815,7 +822,7 @@
     <entry file="file://$PROJECT_DIR$/src/navigation/Root.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -878,8 +885,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NavBar/components/NavBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="418">
+          <caret line="34" column="56" lean-forward="true" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
           <folding />
         </state>
       </provider>
