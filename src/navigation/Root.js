@@ -5,7 +5,7 @@
 
 import React from 'react';
 import {Route, Switch} from 'react-router'
-import {ConnectedRouter} from 'react-router-redux';
+import { BrowserRouter } from 'react-router-dom'
 
 import Footer from '../components/Footer';
 
@@ -16,8 +16,10 @@ import type {RouterProps} from './model';
 import NavigationBar from "../components/NavBar";
 import Background from "../components/Background";
 
+
+
 export default ({history}: RouterProps) => (
-    <ConnectedRouter history={history}>
+    <BrowserRouter>
         <div>
             <Background/>
             <NavigationBar/>
@@ -29,5 +31,5 @@ export default ({history}: RouterProps) => (
 
 
         </div>
-    </ConnectedRouter>
+    </BrowserRouter>
 )
