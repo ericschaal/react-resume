@@ -5,12 +5,10 @@
 
 import { createStore, combineReducers, applyMiddleware } from 'redux'
 
-import {routerMid, routerReducer} from '../navigation';
 
 
 export default createStore(
     combineReducers({
-        router: routerReducer
     }),
-    applyMiddleware(routerMid)
+    applyMiddleware()
 );

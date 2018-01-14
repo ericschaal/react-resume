@@ -37,7 +37,7 @@ export default () => {
                     }
                 }}
                 style={{
-                    background: '#252839',
+                    background: '#38373D',
                     width: '100%',
                     height: '100%',
                     position:'fixed',
@@ -52,7 +52,7 @@ export default () => {
         :
         (
             <div style={{
-                background: '#252839',
+                background: '#38373D',
                 width: '100%',
                 height: '100%',
                 position:'fixed',

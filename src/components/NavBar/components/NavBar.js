@@ -29,12 +29,12 @@ export default class NavigationBar extends Component<Props, State> {
         return (
             <div>
                 <Navbar style={styles.navBarContainer} color="faded" dark fixed expand="md">
-                    <NavbarBrand style={styles.navBrand} href="/">Eric Schaal</NavbarBrand>
+                    <NavbarBrand style={styles.navBrand} href="/">Laurent Schaal</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink target="_blank" style={styles.menuItem} href="/resume.pdf">Download my Resume</NavLink>
+                                <NavLink target="_blank" style={styles.menuItem} href="/resume.pdf">Telecharger mon CV</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>

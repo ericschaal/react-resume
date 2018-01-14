@@ -8,19 +8,19 @@ import Icon from 'react-fontawesome';
 
 export default () => (
     <div style={styles.container}>
-        <p style={styles.header}>Contact Me</p>
+        <p style={styles.header}>Me contacter</p>
         <ul className="fa-ul d-block mx-auto">
             <li>
                 <Icon style={styles.icon} name="envelope-o"/>
-                <a href="mailto:eric.schaal@mail.mcgill.ca">eric.schaal@mail.mcgill.ca</a>
+                <a href="mailto:laurent.schaal@insa-lyon.fr">laurent.schaal@insa-lyon.fr</a>
             </li>
             <li>
                 <Icon style={styles.icon} name="envelope-o"/>
-                <a href="mailto:ericschaal@icloud.com">ericschaal@icloud.com</a>
+                <a href="mailto:lavredios@gmail.com">lavredios@gmail.com</a>
             </li>
             <li>
                 <Icon style={styles.icon} name="phone"/>
-                <a href="tel:+1-438-929-7521">+1-438-929-7521</a>
+                <a href="tel:+1-438-929-7521">+33 7 69 88 95 57</a>
             </li>
         </ul>
     </div>
