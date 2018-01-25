@@ -4,32 +4,16 @@
  **/
 
 import React from 'react';
-import {Route, Switch} from 'react-router'
-import { BrowserRouter } from 'react-router-dom'
-
-import Footer from '../components/Footer';
-
-import About from '../pages/About';
 import Home from '../pages/Home';
 
-import type {RouterProps} from './model';
 import NavigationBar from "../components/NavBar";
 import Background from "../components/Background";
 
 
-
-export default ({history}: RouterProps) => (
-    <BrowserRouter>
-        <div>
-            <Background/>
-            <NavigationBar/>
-            <Switch>
-                <Route exact path='/' component={Home}></Route>
-                <Route path='/about' component={About}></Route>
-                <Route path='/projects'></Route>
-            </Switch>
-
-
-        </div>
-    </BrowserRouter>
+export default () => (
+  <div>
+    <Background/>
+    <NavigationBar/>
+    <Home/>
+  </div>
 )

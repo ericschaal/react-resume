@@ -11,7 +11,7 @@ import Page from '../../../components/Page';
 import SideColumn from './SideColumn';
 import CenterColumn from './CenterColumn';
 
-export default class Home extends Component<void, void> {
+export default class Home extends Component<*, *> {
     render() {
         return (
             <Page>

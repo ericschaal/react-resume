@@ -271,7 +271,7 @@ export default () => (
                         name="arrow-circle-o-down"/></span></Col>
                     <Col xs="12" md="7">
                         <p style={styles.workDescription}>
-                            A crowd-sourced and social travel agent that helpsusers build and
+                            A crowd-sourced and social travel agent that helps users build and
                             organize trips based on others' experiences. Built on Meteor.js.
                         </p>
                     </Col>
