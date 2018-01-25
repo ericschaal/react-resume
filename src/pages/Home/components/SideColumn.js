@@ -27,7 +27,7 @@ const styles = {
         display: 'flex !important',
         overflow:'hidden',
         clear:'both',
-        background: '#f6f1ed',
+        background: '#FDFDFD',
         padding: '12px 8px 8px 12px',
         borderRadius: '4px',
         boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',

@@ -34,7 +34,7 @@ export default class NavigationBar extends Component<Props, State> {
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink target="_blank" style={styles.menuItem} href="/resume.pdf">Download my Resume</NavLink>
+                                <NavLink target="_blank" style={styles.menuItem} href="/resume.pdf">My Resume</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>

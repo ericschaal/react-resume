@@ -328,7 +328,7 @@ export default () => (
 
 const styles = {
   col: {
-    background: '#f6f1ed',
+    background: '#FDFDFD',
     borderRadius: '4px',
     padding: '30px 12px 30px 12px',
     boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
