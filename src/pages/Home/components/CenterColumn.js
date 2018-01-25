@@ -93,7 +93,7 @@ export default () => (
           <Col xs="4">
             <Row>
               <Col className="float-right" xs="12">
-                <p style={styles.workDate}>July 2017 - <b>Current</b></p>
+                <p style={styles.workDate}>July 2017 - <b>Present</b></p>
               </Col>
             </Row>
             <Row>
