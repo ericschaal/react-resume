@@ -84,7 +84,7 @@ export default () => (
         <Row>
           <Col xs="8">
             <Row>
-              <p style={styles.workName}>NXTSENS Microsystems</p>
+              <p style={styles.workName}>NXTSENS Microsystems (MYOVUE)</p>
             </Row>
             <Row>
               <p style={styles.workTitle}>Software Developer</p>
